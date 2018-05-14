@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a5be927c-4946-4b20-bf82-280cc9411747}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d41171a2-3770-4b74-b614-3a127bd3ad1c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7c471fc3-5b3e-4e5e-90a4-8e5a8fca01bf}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="backgroundMask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bulletMask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="f117.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="f117mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="f15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="f15mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="f18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="f18mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ship.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="shipMask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ship.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

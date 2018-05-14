@@ -1,0 +1,5 @@
+W = forward
+S = backward
+A = left
+D = right
+spacebar = fire missile

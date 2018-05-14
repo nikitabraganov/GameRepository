@@ -1,0 +1,143 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GAMEBOARD           BITMAP                  "hockeyboard.bmp"
+IDB_GAMEBOARD_MASK      BITMAP                  "hockeyboardMask.bmp"
+IDB_PUCK                BITMAP                  "puck.bmp"
+IDB_PUCK_MASK           BITMAP                  "puckMask.bmp"
+IDB_REDPADDLE           BITMAP                  "redPaddle.bmp"
+IDB_BLUEPADDLE          BITMAP                  "blue.bmp"
+IDB_GILOGO              BITMAP                  "gilogo2.bmp"
+IDB_PADDLE_MASK         BITMAP                  "paddleMask.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 284, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Game Institute Air Hockey"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,158,50,14
+    CONTROL         118,IDC_STATIC,"Static",SS_BITMAP,17,16,54,49
+    LTEXT           "Game Institute Air Hockey",IDC_STATIC,85,17,122,8
+    LTEXT           "Version 1.0",IDC_STATIC,85,29,122,8
+    LTEXT           "Left Mouse Button to pick up paddle and begin round.",
+                    IDC_STATIC,25,102,172,8
+    LTEXT           "Right Mouse Button to drop paddle and pause game.",
+                    IDC_STATIC,25,117,170,8
+    GROUPBOX        "Controls",IDC_STATIC,17,84,250,66
+    LTEXT           "Sunday, August 22, 2004",IDC_STATIC,85,41,83,8
+    LTEXT           "Programmed By Frank D. Luna",IDC_STATIC,85,53,98,8
+    LTEXT           "Artwork by Frank D. Luna and Adam Hoult",IDC_STATIC,85,
+                    65,136,8
+    LTEXT           "Move the Mouse to move the paddle once the paddle has been picked up.",
+                    IDC_STATIC,25,132,237,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

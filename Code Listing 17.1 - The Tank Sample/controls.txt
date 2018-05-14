@@ -1,0 +1,6 @@
+W - forward
+S - backward
+A - left
+D - right
+Q - rotate gun left
+E - rotate fun right
